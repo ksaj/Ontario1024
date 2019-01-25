@@ -3,8 +3,7 @@
                 org    100h
 
 ; NOTE: The next 2 lines work as written in a debugger, but when 
-;       executed in DOS, the second line is skipped. This trick is 
-;       explained in chapter 5.
+;       executed in DOS, the second line is skipped.
 
 DOS_7:
           mov     word ptr [offset AD_Marker - 2],offset Kill_HD
