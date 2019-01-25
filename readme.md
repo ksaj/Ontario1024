@@ -9,8 +9,9 @@ The Lezbo virus can infect .COM files, .EXE files, and .OVL (OVerLay files).
 It is a full stealth virus which hides the virus size increase of infected fil
 es.  The time stamp is altered, as described in Chapter Five's discussion on d
 irectory stealth.
-  Notice how the virus installation code must determine whether the host is an
- .EXE or .COM type file.  This is because .EXE files require much more process
+
+Notice how the virus installation code must determine whether the host is an
+.EXE or .COM type file.  This is because .EXE files require much more process
 ing before an effective infection can take place.
 Other information is included in the virus source code comments.
 ```
