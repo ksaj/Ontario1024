@@ -1,11 +1,14 @@
-COMMENT ~======================================================================                                                                            =
-=                            DOS-7 version C                              =                            ---------------                               =             Disassembly By: Karsten Johansson, PC Scavenger
+COMMENT ~===============================================================                                                                           =
+=                            DOS-7 version C                              
+=                            ---------------                               
+=             Disassembly By: Karsten Johansson, PC Scavenger
 =
 ========================================================================
 =
 =  CAUTION:   This virus contains damaging code.  Do NOT compile or 
 =             execute the code until you understand the nature of the 
-=             anti-debugger methods used in the virus.                                     =
+=             anti-debugger methods used in the virus.
+=
 =  NOTES:     This virus is actively debugger-resistant.  Use of a 
 =             debugger will cause the virus to overwrite sectors 0 
 =             upwards on the C: drive.  What makes this technique highly 
@@ -15,8 +18,11 @@ COMMENT ~====================================================================== 
 =             writing routine. 
 =
 =             As of the time of this writing, no other virus uses this
-=             technique.                                                     =
-=  COMPILE:   With TASM:            TASM DOS-7C                              =                                   TLINK /T DOS-7C                          =
+=             technique.                                                     
+=
+=  COMPILE:   With TASM:            TASM DOS-7C                              
+=                                   TLINK /T DOS-7C                          
+=
 =======================================================================~
 
 
@@ -241,6 +247,7 @@ antivirus db      'MSDOS 7 (C)1993 ANARKICK SYSTEMS',0Dh,0Ah
 antiviruslen      equ     $ - antivirus
 
 ;--- Host file is appended here ---------------------------
+
          db       '$'   ; for part of the host
 
 Host:
