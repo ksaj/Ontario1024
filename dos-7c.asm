@@ -1,30 +1,3 @@
-COMMENT ~===============================================================                                                                           =
-=                            DOS-7 version C                              
-=                            ---------------                               
-=             Disassembly By: Karsten Johansson, PC Scavenger
-=
-========================================================================
-=
-=  CAUTION:   This virus contains damaging code.  Do NOT compile or 
-=             execute the code until you understand the nature of the 
-=             anti-debugger methods used in the virus.
-=
-=  NOTES:     This virus is actively debugger-resistant.  Use of a 
-=             debugger will cause the virus to overwrite sectors 0 
-=             upwards on the C: drive.  What makes this technique highly 
-=             dangerous compared to other anti-debug techniques is that 
-=             instead of simply sending the debugger tracing the wrong 
-=             path, it forces the debugger to actually execute the disk-
-=             writing routine. 
-=
-=             As of the time of this writing, no other virus uses this
-=             technique.                                                     
-=
-=  COMPILE:   With TASM:            TASM DOS-7C                              
-=                                   TLINK /T DOS-7C                          
-=
-=======================================================================~
-
                .model  tiny
                .code
                 org    100h
