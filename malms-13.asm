@@ -242,8 +242,8 @@ count2          db      0,          0
 eyes            db      '(o)          (o)$'
 dinked	        db	'[Malmsey Habitat v. 1.3]',       0
 rabid           db	 cr, lf
-	              db	'Warmest Regards to  RABID', cr, lf
-	              db	'from -- ANARKICK SYSTEMS!  ',0,'$'
+	        db	'Warmest Regards to  RABID', cr, lf
+	        db	'from -- ANARKICK SYSTEMS!  ',0,'$'
 
 finish:   
 
